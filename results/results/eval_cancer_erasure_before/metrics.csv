@@ -1,0 +1,6 @@
+Model,Attack,AUROC,Sensibilidad,Especificidad,Accuracy,FPR,TP,FP,TN,FN
+VAE,Cancer Erasure - Before Fine-Tuning,0.5883,0.117,0.95,0.445,0.05,30362,8427,160107,229128
+CAE,Cancer Erasure - Before Fine-Tuning,0.496,0.1017,0.95,0.4357,0.05,26385,8427,160107,233105
+DDPM,Cancer Erasure - Before Fine-Tuning,0.502,0.0517,0.95,0.4054,0.05,13419,8427,160107,246071
+GNN_AE,Cancer Erasure - Before Fine-Tuning,0.598,0.1134,0.95,0.4428,0.05,29431,8427,160107,230059
+ENSEMBLE,Cancer Erasure - Before Fine-Tuning,0.5765,0.1029,0.95,0.4365,0.05,26706,8427,160107,232784

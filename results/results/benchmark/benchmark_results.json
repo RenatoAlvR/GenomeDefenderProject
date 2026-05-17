@@ -1,0 +1,785 @@
+[
+  {
+    "attack": "gene_scaling",
+    "meta": {
+      "attack": "gene_scaling",
+      "poison_frac": 0.1,
+      "scale_factor": 3.0,
+      "n_genes_targeted": 1000,
+      "n_poisoned_cells": 8560
+    },
+    "model_metrics": {
+      "vae": {
+        "auroc": 0.8266,
+        "sensitivity": 0.4218,
+        "specificity": 0.95,
+        "accuracy": 0.8972,
+        "fpr": 0.05,
+        "threshold": 0.4334,
+        "tp": 3611,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 4949
+      },
+      "cae": {
+        "auroc": 0.4451,
+        "sensitivity": 0.0542,
+        "specificity": 0.95,
+        "accuracy": 0.8604,
+        "fpr": 0.05,
+        "threshold": 0.8826,
+        "tp": 464,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 8096
+      },
+      "ddpm": {
+        "auroc": 0.5057,
+        "sensitivity": 0.0576,
+        "specificity": 0.95,
+        "accuracy": 0.8608,
+        "fpr": 0.05,
+        "threshold": 0.8434,
+        "tp": 493,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 8067
+      },
+      "gnn_ae": {
+        "auroc": 0.8329,
+        "sensitivity": 0.4283,
+        "specificity": 0.95,
+        "accuracy": 0.8978,
+        "fpr": 0.05,
+        "threshold": 0.4936,
+        "tp": 3666,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 4894
+      },
+      "ensemble": {
+        "auroc": 0.7582,
+        "sensitivity": 0.3401,
+        "specificity": 0.95,
+        "accuracy": 0.889,
+        "fpr": 0.05,
+        "threshold": 0.8676,
+        "tp": 2911,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 5649
+      }
+    }
+  },
+  {
+    "attack": "gene_scaling",
+    "meta": {
+      "attack": "gene_scaling",
+      "poison_frac": 0.2,
+      "scale_factor": 3.0,
+      "n_genes_targeted": 1000,
+      "n_poisoned_cells": 17120
+    },
+    "model_metrics": {
+      "vae": {
+        "auroc": 0.8196,
+        "sensitivity": 0.4055,
+        "specificity": 0.95,
+        "accuracy": 0.8411,
+        "fpr": 0.05,
+        "threshold": 0.433,
+        "tp": 6943,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 10177
+      },
+      "cae": {
+        "auroc": 0.4195,
+        "sensitivity": 0.0475,
+        "specificity": 0.95,
+        "accuracy": 0.7695,
+        "fpr": 0.05,
+        "threshold": 0.886,
+        "tp": 813,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 16307
+      },
+      "ddpm": {
+        "auroc": 0.5082,
+        "sensitivity": 0.0583,
+        "specificity": 0.95,
+        "accuracy": 0.7717,
+        "fpr": 0.05,
+        "threshold": 0.8434,
+        "tp": 998,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 16122
+      },
+      "gnn_ae": {
+        "auroc": 0.8215,
+        "sensitivity": 0.4103,
+        "specificity": 0.95,
+        "accuracy": 0.8421,
+        "fpr": 0.05,
+        "threshold": 0.4936,
+        "tp": 7025,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 10095
+      },
+      "ensemble": {
+        "auroc": 0.7277,
+        "sensitivity": 0.3081,
+        "specificity": 0.95,
+        "accuracy": 0.8216,
+        "fpr": 0.05,
+        "threshold": 0.7259,
+        "tp": 5275,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 11845
+      }
+    }
+  },
+  {
+    "attack": "gene_scaling",
+    "meta": {
+      "attack": "gene_scaling",
+      "poison_frac": 0.3,
+      "scale_factor": 3.0,
+      "n_genes_targeted": 1000,
+      "n_poisoned_cells": 25681
+    },
+    "model_metrics": {
+      "vae": {
+        "auroc": 0.8368,
+        "sensitivity": 0.4255,
+        "specificity": 0.95,
+        "accuracy": 0.7926,
+        "fpr": 0.05,
+        "threshold": 0.4331,
+        "tp": 10928,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 14753
+      },
+      "cae": {
+        "auroc": 0.3947,
+        "sensitivity": 0.0424,
+        "specificity": 0.95,
+        "accuracy": 0.6777,
+        "fpr": 0.05,
+        "threshold": 0.8904,
+        "tp": 1089,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 24592
+      },
+      "ddpm": {
+        "auroc": 0.5056,
+        "sensitivity": 0.0602,
+        "specificity": 0.95,
+        "accuracy": 0.683,
+        "fpr": 0.05,
+        "threshold": 0.8432,
+        "tp": 1545,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 24136
+      },
+      "gnn_ae": {
+        "auroc": 0.8393,
+        "sensitivity": 0.4295,
+        "specificity": 0.95,
+        "accuracy": 0.7939,
+        "fpr": 0.05,
+        "threshold": 0.494,
+        "tp": 11031,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 14650
+      },
+      "ensemble": {
+        "auroc": 0.7194,
+        "sensitivity": 0.2954,
+        "specificity": 0.95,
+        "accuracy": 0.7536,
+        "fpr": 0.05,
+        "threshold": 0.642,
+        "tp": 7585,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 18096
+      }
+    }
+  },
+  {
+    "attack": "noise_injection",
+    "meta": {
+      "attack": "noise_injection",
+      "poison_frac": 0.1,
+      "noise_std": 1.0,
+      "n_poisoned_cells": 8560
+    },
+    "model_metrics": {
+      "vae": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.955,
+        "fpr": 0.05,
+        "threshold": 0.4334,
+        "tp": 8560,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 0
+      },
+      "cae": {
+        "auroc": 0.4055,
+        "sensitivity": 0.043,
+        "specificity": 0.95,
+        "accuracy": 0.8593,
+        "fpr": 0.05,
+        "threshold": 0.8832,
+        "tp": 368,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 8192
+      },
+      "ddpm": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.955,
+        "fpr": 0.05,
+        "threshold": 0.8433,
+        "tp": 8560,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 0
+      },
+      "gnn_ae": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.955,
+        "fpr": 0.05,
+        "threshold": 0.4943,
+        "tp": 8560,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 0
+      },
+      "ensemble": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.955,
+        "fpr": 0.05,
+        "threshold": 0.3122,
+        "tp": 8560,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 0
+      }
+    }
+  },
+  {
+    "attack": "noise_injection",
+    "meta": {
+      "attack": "noise_injection",
+      "poison_frac": 0.2,
+      "noise_std": 1.0,
+      "n_poisoned_cells": 17120
+    },
+    "model_metrics": {
+      "vae": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.96,
+        "fpr": 0.05,
+        "threshold": 0.433,
+        "tp": 17120,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 0
+      },
+      "cae": {
+        "auroc": 0.3668,
+        "sensitivity": 0.0332,
+        "specificity": 0.95,
+        "accuracy": 0.7666,
+        "fpr": 0.05,
+        "threshold": 0.8882,
+        "tp": 569,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 16551
+      },
+      "ddpm": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.96,
+        "fpr": 0.05,
+        "threshold": 0.8435,
+        "tp": 17120,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 0
+      },
+      "gnn_ae": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.96,
+        "fpr": 0.05,
+        "threshold": 0.4948,
+        "tp": 17120,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 0
+      },
+      "ensemble": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.96,
+        "fpr": 0.05,
+        "threshold": 0.1378,
+        "tp": 17120,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 0
+      }
+    }
+  },
+  {
+    "attack": "noise_injection",
+    "meta": {
+      "attack": "noise_injection",
+      "poison_frac": 0.3,
+      "noise_std": 1.0,
+      "n_poisoned_cells": 25681
+    },
+    "model_metrics": {
+      "vae": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.965,
+        "fpr": 0.05,
+        "threshold": 0.4331,
+        "tp": 25681,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 0
+      },
+      "cae": {
+        "auroc": 0.3493,
+        "sensitivity": 0.0276,
+        "specificity": 0.95,
+        "accuracy": 0.6733,
+        "fpr": 0.05,
+        "threshold": 0.8914,
+        "tp": 708,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 24973
+      },
+      "ddpm": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.965,
+        "fpr": 0.05,
+        "threshold": 0.8432,
+        "tp": 25681,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 0
+      },
+      "gnn_ae": {
+        "auroc": 1.0,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.965,
+        "fpr": 0.05,
+        "threshold": 0.4958,
+        "tp": 25681,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 0
+      },
+      "ensemble": {
+        "auroc": 0.9999,
+        "sensitivity": 1.0,
+        "specificity": 0.95,
+        "accuracy": 0.965,
+        "fpr": 0.05,
+        "threshold": 0.0145,
+        "tp": 25681,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 0
+      }
+    }
+  },
+  {
+    "attack": "targeted_pathway",
+    "meta": {
+      "attack": "targeted_pathway",
+      "poison_frac": 0.1,
+      "down_factor": 0.25,
+      "up_factor": 2.5,
+      "n_cancer_genes": 19,
+      "n_immune_genes": 19,
+      "cell_selection": "borderline",
+      "n_borderline": 62192,
+      "n_poisoned_cells": 8560,
+      "cancer_genes_used": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "CCNB1",
+        "CDK1",
+        "AURKA",
+        "AURKB",
+        "ERBB2",
+        "ESR1",
+        "PGR",
+        "FOXA1",
+        "GATA3",
+        "KRT8",
+        "KRT18",
+        "MMP2",
+        "MMP9",
+        "VIM",
+        "CDH2",
+        "FN1"
+      ],
+      "immune_genes_used": [
+        "IL6",
+        "TNF",
+        "IL1B",
+        "CXCL8",
+        "IL18",
+        "CD4",
+        "CD8A",
+        "CD8B",
+        "IFNG",
+        "GZMB",
+        "PRF1",
+        "CD68",
+        "CD14",
+        "CSF1R",
+        "PTPRC",
+        "IL10",
+        "FOXP3",
+        "CTLA4",
+        "PDCD1"
+      ]
+    },
+    "model_metrics": {
+      "vae": {
+        "auroc": 0.4454,
+        "sensitivity": 0.0,
+        "specificity": 0.95,
+        "accuracy": 0.855,
+        "fpr": 0.05,
+        "threshold": 0.4427,
+        "tp": 0,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 8560
+      },
+      "cae": {
+        "auroc": 0.4924,
+        "sensitivity": 0.0474,
+        "specificity": 0.95,
+        "accuracy": 0.8597,
+        "fpr": 0.05,
+        "threshold": 0.8802,
+        "tp": 406,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 8154
+      },
+      "ddpm": {
+        "auroc": 0.4972,
+        "sensitivity": 0.048,
+        "specificity": 0.95,
+        "accuracy": 0.8598,
+        "fpr": 0.05,
+        "threshold": 0.8433,
+        "tp": 411,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 8149
+      },
+      "gnn_ae": {
+        "auroc": 0.4467,
+        "sensitivity": 0.0,
+        "specificity": 0.95,
+        "accuracy": 0.855,
+        "fpr": 0.05,
+        "threshold": 0.5027,
+        "tp": 0,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 8560
+      },
+      "ensemble": {
+        "auroc": 0.4443,
+        "sensitivity": 0.0014,
+        "specificity": 0.95,
+        "accuracy": 0.8551,
+        "fpr": 0.05,
+        "threshold": 1.1858,
+        "tp": 12,
+        "fp": 3853,
+        "tn": 73191,
+        "fn": 8548
+      }
+    }
+  },
+  {
+    "attack": "targeted_pathway",
+    "meta": {
+      "attack": "targeted_pathway",
+      "poison_frac": 0.2,
+      "down_factor": 0.25,
+      "up_factor": 2.5,
+      "n_cancer_genes": 19,
+      "n_immune_genes": 19,
+      "cell_selection": "borderline",
+      "n_borderline": 62192,
+      "n_poisoned_cells": 17120,
+      "cancer_genes_used": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "CCNB1",
+        "CDK1",
+        "AURKA",
+        "AURKB",
+        "ERBB2",
+        "ESR1",
+        "PGR",
+        "FOXA1",
+        "GATA3",
+        "KRT8",
+        "KRT18",
+        "MMP2",
+        "MMP9",
+        "VIM",
+        "CDH2",
+        "FN1"
+      ],
+      "immune_genes_used": [
+        "IL6",
+        "TNF",
+        "IL1B",
+        "CXCL8",
+        "IL18",
+        "CD4",
+        "CD8A",
+        "CD8B",
+        "IFNG",
+        "GZMB",
+        "PRF1",
+        "CD68",
+        "CD14",
+        "CSF1R",
+        "PTPRC",
+        "IL10",
+        "FOXP3",
+        "CTLA4",
+        "PDCD1"
+      ]
+    },
+    "model_metrics": {
+      "vae": {
+        "auroc": 0.4376,
+        "sensitivity": 0.0,
+        "specificity": 0.95,
+        "accuracy": 0.76,
+        "fpr": 0.05,
+        "threshold": 0.4519,
+        "tp": 0,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 17120
+      },
+      "cae": {
+        "auroc": 0.4908,
+        "sensitivity": 0.0477,
+        "specificity": 0.95,
+        "accuracy": 0.7695,
+        "fpr": 0.05,
+        "threshold": 0.8806,
+        "tp": 817,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 16303
+      },
+      "ddpm": {
+        "auroc": 0.4965,
+        "sensitivity": 0.0481,
+        "specificity": 0.95,
+        "accuracy": 0.7696,
+        "fpr": 0.05,
+        "threshold": 0.8436,
+        "tp": 824,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 16296
+      },
+      "gnn_ae": {
+        "auroc": 0.4393,
+        "sensitivity": 0.0,
+        "specificity": 0.95,
+        "accuracy": 0.76,
+        "fpr": 0.05,
+        "threshold": 0.5134,
+        "tp": 0,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 17120
+      },
+      "ensemble": {
+        "auroc": 0.4362,
+        "sensitivity": 0.0014,
+        "specificity": 0.95,
+        "accuracy": 0.7603,
+        "fpr": 0.05,
+        "threshold": 1.2399,
+        "tp": 24,
+        "fp": 3425,
+        "tn": 65059,
+        "fn": 17096
+      }
+    }
+  },
+  {
+    "attack": "targeted_pathway",
+    "meta": {
+      "attack": "targeted_pathway",
+      "poison_frac": 0.3,
+      "down_factor": 0.25,
+      "up_factor": 2.5,
+      "n_cancer_genes": 19,
+      "n_immune_genes": 19,
+      "cell_selection": "borderline",
+      "n_borderline": 62192,
+      "n_poisoned_cells": 25681,
+      "cancer_genes_used": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "CCNB1",
+        "CDK1",
+        "AURKA",
+        "AURKB",
+        "ERBB2",
+        "ESR1",
+        "PGR",
+        "FOXA1",
+        "GATA3",
+        "KRT8",
+        "KRT18",
+        "MMP2",
+        "MMP9",
+        "VIM",
+        "CDH2",
+        "FN1"
+      ],
+      "immune_genes_used": [
+        "IL6",
+        "TNF",
+        "IL1B",
+        "CXCL8",
+        "IL18",
+        "CD4",
+        "CD8A",
+        "CD8B",
+        "IFNG",
+        "GZMB",
+        "PRF1",
+        "CD68",
+        "CD14",
+        "CSF1R",
+        "PTPRC",
+        "IL10",
+        "FOXP3",
+        "CTLA4",
+        "PDCD1"
+      ]
+    },
+    "model_metrics": {
+      "vae": {
+        "auroc": 0.4292,
+        "sensitivity": 0.0,
+        "specificity": 0.95,
+        "accuracy": 0.665,
+        "fpr": 0.05,
+        "threshold": 0.4622,
+        "tp": 0,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 25681
+      },
+      "cae": {
+        "auroc": 0.4872,
+        "sensitivity": 0.046,
+        "specificity": 0.95,
+        "accuracy": 0.6788,
+        "fpr": 0.05,
+        "threshold": 0.8818,
+        "tp": 1182,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 24499
+      },
+      "ddpm": {
+        "auroc": 0.4927,
+        "sensitivity": 0.0453,
+        "specificity": 0.95,
+        "accuracy": 0.6786,
+        "fpr": 0.05,
+        "threshold": 0.8436,
+        "tp": 1163,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 24518
+      },
+      "gnn_ae": {
+        "auroc": 0.4313,
+        "sensitivity": 0.0,
+        "specificity": 0.95,
+        "accuracy": 0.665,
+        "fpr": 0.05,
+        "threshold": 0.524,
+        "tp": 0,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 25681
+      },
+      "ensemble": {
+        "auroc": 0.4238,
+        "sensitivity": 0.0007,
+        "specificity": 0.95,
+        "accuracy": 0.6652,
+        "fpr": 0.05,
+        "threshold": 1.2899,
+        "tp": 17,
+        "fp": 2997,
+        "tn": 56926,
+        "fn": 25664
+      }
+    }
+  }
+]

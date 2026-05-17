@@ -1,0 +1,68 @@
+{
+  "attack": "Autoinmune Injection - Before Fine-tuning",
+  "n_total": 428024,
+  "n_poisoned": 43646,
+  "poison_fraction": 0.102,
+  "metrics": {
+    "vae": {
+      "auroc": 0.6876,
+      "sensitivity": 0.1613,
+      "specificity": 0.95,
+      "accuracy": 0.8696,
+      "fpr": 0.05,
+      "threshold": 0.419,
+      "tp": 7042,
+      "fp": 19219,
+      "tn": 365159,
+      "fn": 36604
+    },
+    "cae": {
+      "auroc": 0.658,
+      "sensitivity": 0.1413,
+      "specificity": 0.95,
+      "accuracy": 0.8675,
+      "fpr": 0.05,
+      "threshold": 0.81,
+      "tp": 6166,
+      "fp": 19219,
+      "tn": 365159,
+      "fn": 37480
+    },
+    "ddpm": {
+      "auroc": 0.5007,
+      "sensitivity": 0.0498,
+      "specificity": 0.95,
+      "accuracy": 0.8582,
+      "fpr": 0.05,
+      "threshold": 0.8433,
+      "tp": 2173,
+      "fp": 19220,
+      "tn": 365158,
+      "fn": 41473
+    },
+    "gnn_ae": {
+      "auroc": 0.6924,
+      "sensitivity": 0.1648,
+      "specificity": 0.95,
+      "accuracy": 0.8699,
+      "fpr": 0.05,
+      "threshold": 0.4748,
+      "tp": 7195,
+      "fp": 19219,
+      "tn": 365159,
+      "fn": 36451
+    },
+    "ensemble": {
+      "auroc": 0.6595,
+      "sensitivity": 0.138,
+      "specificity": 0.95,
+      "accuracy": 0.8672,
+      "fpr": 0.05,
+      "threshold": 1.2646,
+      "tp": 6024,
+      "fp": 19219,
+      "tn": 365159,
+      "fn": 37622
+    }
+  }
+}

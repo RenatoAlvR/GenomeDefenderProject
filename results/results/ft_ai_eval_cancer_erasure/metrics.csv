@@ -1,0 +1,6 @@
+Model,Attack,AUROC,Sensibilidad,Especificidad,Accuracy,FPR,TP,FP,TN,FN
+VAE,AI fine-tuned -> Cancer Erasure,0.5875,0.117,0.95,0.445,0.05,30364,8427,160107,229126
+CAE,AI fine-tuned -> Cancer Erasure,0.5582,0.196,0.95,0.4929,0.05,50861,8427,160107,208629
+DDPM,AI fine-tuned -> Cancer Erasure,0.7609,0.3562,0.95,0.59,0.05,92439,8427,160107,167051
+GNN_AE,AI fine-tuned -> Cancer Erasure,0.5977,0.1129,0.95,0.4425,0.05,29290,8427,160107,230200
+ENSEMBLE,AI fine-tuned -> Cancer Erasure,0.6593,0.2122,0.95,0.5027,0.05,55072,8427,160107,204418

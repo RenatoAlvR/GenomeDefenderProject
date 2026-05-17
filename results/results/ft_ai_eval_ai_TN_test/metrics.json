@@ -1,0 +1,68 @@
+{
+  "attack": "AI fine-tuned -> AI TN seed 123",
+  "n_total": 428024,
+  "n_poisoned": 26182,
+  "poison_fraction": 0.0612,
+  "metrics": {
+    "vae": {
+      "auroc": 0.7784,
+      "sensitivity": 0.1886,
+      "specificity": 0.95,
+      "accuracy": 0.9034,
+      "fpr": 0.05,
+      "threshold": 0.4231,
+      "tp": 4937,
+      "fp": 20093,
+      "tn": 381749,
+      "fn": 21245
+    },
+    "cae": {
+      "auroc": 0.9283,
+      "sensitivity": 0.8831,
+      "specificity": 0.95,
+      "accuracy": 0.9459,
+      "fpr": 0.05,
+      "threshold": 0.5732,
+      "tp": 23121,
+      "fp": 20093,
+      "tn": 381749,
+      "fn": 3061
+    },
+    "ddpm": {
+      "auroc": 0.9498,
+      "sensitivity": 0.9123,
+      "specificity": 0.95,
+      "accuracy": 0.9477,
+      "fpr": 0.05,
+      "threshold": 0.2121,
+      "tp": 23887,
+      "fp": 20093,
+      "tn": 381749,
+      "fn": 2295
+    },
+    "gnn_ae": {
+      "auroc": 0.7771,
+      "sensitivity": 0.1942,
+      "specificity": 0.95,
+      "accuracy": 0.9038,
+      "fpr": 0.05,
+      "threshold": 0.4769,
+      "tp": 5085,
+      "fp": 20093,
+      "tn": 381749,
+      "fn": 21097
+    },
+    "ensemble": {
+      "auroc": 0.9572,
+      "sensitivity": 0.8531,
+      "specificity": 0.95,
+      "accuracy": 0.9441,
+      "fpr": 0.05,
+      "threshold": 1.1448,
+      "tp": 22337,
+      "fp": 20093,
+      "tn": 381749,
+      "fn": 3845
+    }
+  }
+}

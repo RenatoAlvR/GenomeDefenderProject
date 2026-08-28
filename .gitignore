@@ -1,0 +1,19 @@
+# Raw and intermediate scRNA-seq data — large, machine-specific, never version-controlled.
+# Lives only on the machine(s) actually running training/detection (e.g. becrux).
+data/
+preprocessing/final_data/
+
+# Trained model checkpoints — large binaries, no Git LFS configured for this repo.
+# results/ (metrics, plots, reports) stays tracked; only the weights themselves are excluded.
+weights/
+
+# Per-run logs and audit trail — generated fresh on every run, not meant to be versioned.
+logs/*.log
+logs/*.ndjson
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
